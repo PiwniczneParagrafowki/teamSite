@@ -18,6 +18,7 @@ ul {
 
 hr{
     margin: 0;
+    border-top: 3px solid #a9834f;
 }
  /* - - -- - - - - - -- - - -- - - -- - -- -  */
 
@@ -32,7 +33,7 @@ nav ul {
 }
 
 nav.navbar-inverse {
-    background-color: #1B1D26 !important;
+    background-color: #111111 !important;
     font-size: 1.4rem;
     border-color: transparent;
 }
@@ -70,7 +71,7 @@ nav a:after {
 
 nav a:hover:after {
     width: 100%;
-    background: #fff;
+    background: #a9834f;
 }
 
 .brand:hover:after{
@@ -106,11 +107,11 @@ nav a:hover:after {
 }
 
 .content-blue{
-    background-color: #2B3A42;
+    background-color: #300B03;
 }
 
 .content-green{
-    background-color: #002F2F;
+    background-color: #111111;
 }
 
 .content p {
@@ -159,7 +160,7 @@ nav a:hover:after {
 }
 
 footer {
-    background-color: #272625;
+    background-color: #300B03;
     color: #fff;
 }
 
