@@ -18,14 +18,14 @@ ul {
 
 hr{
     margin: 0;
-    border-top: 3px solid #a9834f;
+    border-top: 1px solid #a9834f;
+    margin: 0 -20px;
+}
+
+body{
+    overflow-x: hidden;
 }
  /* - - -- - - - - - -- - - -- - - -- - -- -  */
-
-nav {
-    background-color: #EFEFEF;
-    border-color: transparent;
-}
 
 nav ul {
     text-transform: uppercase;
@@ -35,7 +35,7 @@ nav ul {
 nav.navbar-inverse {
     background-color: #111111 !important;
     font-size: 1.4rem;
-    border-color: transparent;
+    border-bottom: 1px solid #a9834f;
 }
 
 .navbar-nav{
@@ -63,7 +63,7 @@ nav a {
 nav a:after {
     content: '';
     display: block;
-    height: 2.3px;
+    height: 2px;
     width: 0;
     background: transparent;
     transition: width .5s ease, background-color .5s ease;
@@ -107,7 +107,7 @@ nav a:hover:after {
 }
 
 .content-blue{
-    background-color: #300B03;
+    background-color: #0d111f;
 }
 
 .content-green{
@@ -160,7 +160,7 @@ nav a:hover:after {
 }
 
 footer {
-    background-color: #300B03;
+    background-color: #0d111f;
     color: #fff;
 }
 
